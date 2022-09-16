@@ -17,7 +17,7 @@
 
 const navbar = (
     <nav>
-        <h1>React</h1>
+        <h1>JayWeb</h1>
         <ul>
             <li>Pircing</li>
             <li>About</li>
