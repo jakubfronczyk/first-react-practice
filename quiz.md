@@ -6,8 +6,8 @@
 
 3. What's wron with this code:
     "const page = (
-        <!-- <h1>>Hello</h1>
-        <p>This is my website !</p> -->
+        h1Hello/h1
+        pThis is my website !/p
     )"
     In this example the parent element is missing
 
