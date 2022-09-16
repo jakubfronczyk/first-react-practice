@@ -7,6 +7,20 @@ function Footer() {
         </footer>
     )
 }
+export default function Header() {
+    return(
+        <header>
+        <nav className="navbar">
+            <img src="images/react-logo.png" className="nav-logo"/>
+            <ul className="nav-items">
+                <li><a href="#">Pircing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#"> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    )
+}
 
 function MainContent() {
     return(
