@@ -16,7 +16,7 @@
     )"
 ```
 
-    In this example the parent element is missing
+In this example the parent element is missing
 
 
 4. What doest it mean for someting to be "declarative" instead of "imperative"
