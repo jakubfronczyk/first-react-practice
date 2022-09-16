@@ -1,6 +1,10 @@
 function PageComponent (){
     return(<div>
-        <img src="images/react-logo.png" width="40px"/>
+        <header>
+            <nav>
+                <img src="images/react-logo.png" width="50px"/>
+            </nav>
+        </header>
         <h1>Fun facts about React</h1>
         <ol>
             <li>Was first released in 2013</li>
@@ -9,7 +13,11 @@ function PageComponent (){
             <li>Is maintained by Facebook</li>
             <li>Powers thousands of enterprise app, including mobile apps</li>
         </ol>
+        <footer>
+            <small>© 2022 Jakub Fronczyk development. All rights reserved.</small>
+        </footer>
     </div>
+    
     )
 }
 
