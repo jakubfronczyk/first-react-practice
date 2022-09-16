@@ -5,10 +5,10 @@
     If you were console.log(page) in index.js it would show up an  js object 
 
 3. What's wron with this code:
-    "const page = (
-        <h1>>Hello</ h1>
-        <p>This is my website !</ p>
-    )"
+    <!-- "const page = (
+        <h1>>Hello</h1>
+        <p>This is my website !</p>
+    )" -->
     In this example the parent element is missing
 
 4. What doest it mean for someting to be "declarative" instead of "imperative"
