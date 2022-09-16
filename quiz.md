@@ -48,7 +48,7 @@ The wrong is the convention of variables naming, React requiers Pascal case whic
 
 8. What is wrong with this code ?
 ```
-    "function Header(){
+    function Header(){
         return(
             <header>
                 <nav>
@@ -58,7 +58,6 @@ The wrong is the convention of variables naming, React requiers Pascal case whic
         )
     }
     ReactDOM.render(Header(), document.getElementById('root'))
-    "
 ```
 With function component in React insted surroundings with the angle brackets as if it were html tag.
 
