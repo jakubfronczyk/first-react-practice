@@ -1,32 +1,15 @@
-// const page = (
-//     <div>
-//         <h1 className="header">This is JSX</h1>
-//         <p>This is paragraph</p>
-//     </div>
-// )
-
-// console.log(page)
-
-// ReactDOM.render(
-//     page,
-//     document.getElementById('root')
-// )
-
-// console.log('page')
-
-
-const navbar = (
-    <nav>
-        <h1>JayWeb</h1>
+const page = (
+    <div>
+        <img src="images/react-logo.png" width="40px"/>
+        <h1>Fun facts about React</h1>
         <ul>
-            <li>Pircing</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>Was first realest in 2013</li>
+            <li>Was orginally created by Jordan Walke</li>
+            <li>Has well over 100K stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, includin mobile apps</li>
         </ul>
-    </nav>
+    </div>
 )
 
-ReactDOM.render(
-    navbar,
-    document.getElementById('root')
-)
+ReactDOM.render(page, document.getElementById('root'))
